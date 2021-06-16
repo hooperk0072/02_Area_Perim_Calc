@@ -39,10 +39,10 @@ while keep_going == "":
     area = height * width
 
     #prints outcome
-    print('The perimeter is {} units and the area is {} square units.'.format(area, perim))
+    print('The perimeter is {:.2f} units and the area is {:.2f} square units.'.format(area, perim))
     print()
 
-    keep_going = input("Press <enter> to keep going or any other key to quit")
+    keep_going = input("Press <enter> to keep going or any other key to quit: ")
 
 print()
 print("Thanks for using the area / perimeter calculator!")
