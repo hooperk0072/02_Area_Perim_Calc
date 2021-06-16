@@ -33,4 +33,4 @@ perim = width * 2 + height * 2
 area = height * width
 
 #prints outcome
-print('The perimeter is {} units and the area is {} square units.'.format(area, perim))
+print('The perimeter is {} units and the area is {} square units.'.format(perim, area))
