@@ -44,6 +44,8 @@ while keep_going == "":
     print()
 
     keep_going = input("Press <enter> to keep going or any other key to quit: ")
-
+    print('---------------------------------------------')
+    print()
 print()
 print("Thank you for using the fence price calculator!")
+print()
